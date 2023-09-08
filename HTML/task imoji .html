@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .main
+        {
+            height: 400px;
+            width: 400px;
+            background: lightblue;
+            border-radius: 50%;
+            margin: 150px auto;
+            position: relative;
+        }
+          
+        .x
+        {
+            height: 160px;
+            width: 120px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 90px;
+            left: 60px;
+            overflow: hidden;
+
+        }
+        .y
+        {
+            height: 160px;
+            width: 120px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 90px;
+            left: 220px;
+            overflow: hidden;
+        }
+        .a
+        {
+            height: 60px;
+            width: 50px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 0;
+            top: 40px;
+            left: 0px;
+            animation: ravi 1s linear infinite alternate;
+          
+
+        }
+        .b
+        {
+            height: 60px;
+            width: 50px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 0;
+
+            top: 40px;
+            left: 0px;
+            animation: nileah 1s linear infinite alternate;
+        }
+        .a1
+        {
+            height: 160px;
+            width: 120px;
+            background: gray;
+            border-radius: 40%;
+            position: absolute;
+            z-index: 1;
+            top: -160px;
+            animation: dhamo 2s linear infinite alternate;
+            
+           
+            
+        }
+        .b1
+        {
+            height: 160px;
+            width: 120px;
+            background: gray;
+            border-radius: 40%;
+            position: absolute;
+            top: -160;
+            z-index: 0;
+            animation: mayur 2s linear infinite alternate;
+            
+
+        
+           
+        }
+
+
+        @keyframes ravi
+        {
+            from{top:40px ; left:0px ;}
+            to{top: 40px;left: 70px;}
+        }
+        @keyframes nileah
+        {
+            from{top:40px ; left:0px ;}
+            to{top: 40px;left: 70px;}
+        }
+
+        @keyframes dhamo
+        {
+            from{top: -160px;}
+            to{top: 0;}
+        }
+        @keyframes mayur
+        {
+            from{top: -160px;}
+            to{top: 0;}
+        }
+       
+
+
+       
+
+
+    
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="x">
+            <div class="a"></div>
+            <div class="a1"></div>
+        </div>
+        <div class="y">
+            <div class="b"></div>
+            <div class="b1"></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
