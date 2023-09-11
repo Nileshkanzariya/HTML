@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .main
+        {
+
+            height: 500px;
+            width: 50%;
+            background: #000;
+            margin: 150px auto;
+            position: relative;
+        }
+        .a
+        {
+            height: 50px;
+            width: 50px;
+            background: blue;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: a 1s linear infinite alternate;
+            
+           
+        }
+
+        @keyframes a
+        {
+           from{top: 0;left: 0;}
+           to{top: 90%;left: 50%;}
+
+        }
+
+
+        .b
+        {
+            height: 50px;
+            width: 50px;
+            background: pink;
+            border-radius: 50%;
+            position: absolute;
+            top: 40%;
+            left: 0;
+            animation: b 2s linear infinite alternate;
+        }
+        @keyframes b
+        {
+            0%{top: 40%;left: 0;}
+            25%{top: 90%;left: 50%;}
+            50%{top: 45%;left: 90%;}
+            75%{top: 0%;left: 50%;}
+            100%{top: 45%;left: 0;}
+        }
+
+
+        .c
+        {
+            height: 50px;
+            width: 50px;
+            background: yellow;
+            border-radius: 50%;
+            position: absolute;
+            top: 90%;
+            left: 0;
+            animation: c 2s linear infinite alternate;
+
+        }
+
+        @keyframes c
+        {
+          0%{top: 90%;left: 0%;}
+          25%{top: 90%;left: 50%;}
+          50%{top: 50%;left: 50%;}
+          75%{top: 50%;left: 0%;}
+          100%{top: 0%;left: 90%;}
+          
+           
+        }
+
+       
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+         
+    </div>
+</body>
+</html>

@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body *{
+    border: 1.5px solid black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+                 /* HEADER1 START */
+.abc1
+{
+ text-align: center; 
+}
+
+.abc1 li
+
+{
+display: inline;
+margin-left: 70px;
+   
+}
+                  /* HEADER1 AND */
+
+                  /* HEADE2 START */
+.abc2
+{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    
+}
+.xyz1
+{
+    line-height: 100px;
+    height: 100px;
+    width: 33.33%;
+}
+                  /* HEADER2 AND */
+
+                  /* HEADER3 START */
+
+.abc3
+{
+   
+   
+}
+ .xyz2
+{
+    color: #fff;
+    line-height: 50px;
+    height: 100px;
+     margin-right: -80px;
+    background-color: #000;
+    text-align: center;
+    width: 14.28%;
+    display: inline-block;
+   
+}
+.balo
+{
+    line-height: 50px;
+  margin-left: 900px;  
+  height: 100px;
+  /* width: 600px; */
+  text-align: center;
+  color: #fff;
+  background: #000;
+  margin-top: -100px;
+}
+
+                        /* HEADER3 AND */
+
+                        /* SECTOIN1 START */
+.abc4
+{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abc4 button{
+margin-top: 20px;
+}
+
+                              /* SECTOIN1 and */
+
+                               /* SECTOIN2 START */
+.abc5
+{
+    height: 500px;
+    display: flex;
+
+    
+}
+.xyz4
+{
+    height: 300px;
+    width: 37%;
+    background: coral;
+    margin: 90px auto;
+    
+}
+
+.xyz5
+{
+    height: 300px;
+    width: 37%;
+    background: coral;
+    margin: 90px auto;
+    margin-left: -170px;
+}
+
+                                  /* SECTOIN2 and */
+
+                                  /* SECTOIN3 START */
+    
+.abc6
+{
+    height: 500px;
+    display: flex;
+}
+.xyz6
+{
+    height: 500px;
+    width: 50%;
+    background: red;
+
+    
+}
+
+.xyz7
+{
+    height: 500px;
+    width: 50%;
+    /* background: coral; */
+    /* margin-left: 170px;
+    margin: auto; */
+}
+.xyz8
+{
+    height: 350px;
+    width: 90%;
+    margin-top: 100px;
+    
+
+    
+}
+p
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nk{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.nk1
+{
+    text-align: center;
+    height: 100px;
+    width: 30%;
+    margin-top: 50px;
+   
+}
+
+                      /* SECTOIN3 AND */
+
+                       /* SECTOIN4 START */
+
+.abc7
+{
+    height: 200px;
+    /* background: lightslategray; */
+    color:#000;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+}
+
+                 /* SECTOIN4 AND */
+
+                  /* SECTOIN5 START */
+                  
+  .abc8
+  {
+    height: 730px;
+    display: flex;
+   
+  }    
+  
+  .xyz9
+  {
+    height: 650px;
+    width: 33%;
+    margin: 60px 0 0 60px;
+    background: lightblue;
+  }
+
+  .xyz10
+  {
+    
+    height: 600px;
+    width: 40%;
+    margin: 60px 0 0 80px;
+    
+    
+  }
+  .xyz11
+  {
+    height: 250px;
+    background: lightblue;
+    
+  }
+  .xyz12
+  {
+    height: 250px;
+    background: lightblue;
+  }
+                      /* SECTOIN5 AND */
+
+                      /* SECTOIN6 START */
+  .abc9
+  {
+    height: 400px;
+    display: flex;
+  }
+  .xyz13
+  {
+    height: 400px;
+    width: 50%;
+    background: lightcoral;
+  }
+  .xyz14
+  {
+    height: 400px;
+    width: 50%;
+    background: yellow;
+  }
+                    /* SECTOIN6 AND */
+
+                    /* SECTOIN7 START */
+  
+   .abc10
+   {
+    text-align: center;
+    /* margin-top: 50px; */
+ 
+   }  
+   .abc10 h1
+   {
+    margin: 50px 0px;
+   }
+   .xyz16 li
+   {
+    display:inline-block;
+    font-size: 30px;
+    margin: 0px 120px;
+
+   }
+
+   .abc11
+   {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+   }
+
+
+   .xyz17
+   {
+    height: 400px;
+    width: 20%;
+    margin: 20px 0 20px 20px;
+    
+   }
+
+   .abc12 
+   {
+     text-align: center;
+     height: 400px;
+     padding: 150px;
+     line-height: 50px;
+    
+   }
+   .abc13
+   {
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   }
+   .xyz18
+   {
+    height:200px ;
+    width:20%;
+    padding: 30px;
+     }
+   .xyz19
+   {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 0 0 10px;
+   }
+    .xyz20
+   {
+    
+    height: 80px;
+    width: 20%;
+   }
+   .xyz21
+   {
+  
+    height: 80px;
+    width:70%;
+   }
+   
+  
+   

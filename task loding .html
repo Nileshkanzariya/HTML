@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *
+        {
+            box-sizing: border-box;
+           
+        }
+        .main
+        {
+          height: 500px;
+          width: 400px;
+          margin: 100px auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          
+        }
+
+        .blue
+        {
+            height: 300px;
+            width: 300px;
+           background:  conic-gradient(white,blue);
+           border-radius: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           animation: loader 2s linear infinite;
+           position: relative;
+           
+        }
+
+        .black
+        {
+            height: 280px;
+            width: 280px;
+           background:  black;
+           border-radius: 50%;
+           position: relative;
+          
+        }
+
+        h1
+        {
+            position: absolute;
+            color: white;
+        }
+        .point
+        {
+            height: 13px;
+            width: 13px;
+            background: blue;
+            border-radius: 50%;
+            position: absolute;
+            top: 0%;
+            left:48%;
+        }
+        
+
+        @keyframes loader
+        {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="blue">
+            <div class="point"></div>
+
+            <div class="black"></div>
+            
+
+        </div>
+        <h1>LOADING..</h1>
+        
+
+
+    </div>
+</body>
+</html>
