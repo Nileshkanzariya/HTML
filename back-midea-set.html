@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .main
+        {
+          
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .col1,.nk
+        {
+            
+            width: 24%;
+        }
+        .nk
+        {
+          
+            background: url(https://media.istockphoto.com/id/1322123064/photo/portrait-of-an-adorable-white-cat-in-sunglasses-and-an-shirt-lies-on-a-fabric-hammock.jpg?s=612x612&w=0&k=20&c=-G6l2c4jNI0y4cenh-t3qxvIQzVCOqOYZNvrRA7ZU5o=);
+            background-size: cover;
+        }
+        @media(max-width:500px)
+
+        {
+            .main
+            {
+             
+               row-gap: 20px;
+            }
+            .col1,.nk
+            {
+                width: 100%;
+
+            }
+
+            .nk
+            {
+               height: 300px;
+            }
+
+          }
+         
+
+          
+        
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="col1">
+            <img src="https://media.istockphoto.com/id/1322123064/photo/portrait-of-an-adorable-white-cat-in-sunglasses-and-an-shirt-lies-on-a-fabric-hammock.jpg?s=612x612&w=0&k=20&c=-G6l2c4jNI0y4cenh-t3qxvIQzVCOqOYZNvrRA7ZU5o=" alt="" height="100%" width="100%">
+        </div>
+        <div class="nk">col1</div>
+        <div class="col1">
+            <img src="https://media.istockphoto.com/id/1322123064/photo/portrait-of-an-adorable-white-cat-in-sunglasses-and-an-shirt-lies-on-a-fabric-hammock.jpg?s=612x612&w=0&k=20&c=-G6l2c4jNI0y4cenh-t3qxvIQzVCOqOYZNvrRA7ZU5o=" alt="" height="100%" width="100%">
+        </div>
+        <div class="nk">col1</div>
+
+    </div>
+</body>
+</html>
